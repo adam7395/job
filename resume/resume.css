@@ -1,0 +1,133 @@
+body {
+  position: relative;
+  height: 800px;
+  width: 1400px;
+  margin: 0;
+  padding: 2%;
+}
+
+h1, h1>small {
+margin: 0;
+padding: 0;
+border: 1px solid red;
+}
+
+
+
+
+/** Style the title **/
+h1 {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+}
+h1 > small {
+  font-family: "PT Serif", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 100%;
+}
+
+/** style the subsection headers **/
+h2 {
+  font-family: "Niconne", sans-serif;
+  font-size: 32px;
+}
+
+
+.header {
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+/** Summary list styling **/
+#summary-list {
+  list-style: none;
+}
+
+#summary-list > li {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#summary-list > li:before {
+  content: "◉";
+  font-size: 10px;
+}
+
+/** Style the skills table **/
+table {
+  width: 90%;
+}
+th {
+  text-align: left;
+
+}
+
+td {
+  align: left;
+}
+
+/*
+*******************************************************************
+*******************************************************************
+* style the education
+*******************************************************************
+*/
+.education-item {
+  width: 100%;
+  border: 1px solid red;
+  margin: 10px 0;
+
+
+}
+.education-item > img {
+  width: 10%;
+  height: auto;
+}
+
+.work-item {
+  height: 15%;
+  clear: both;
+}
+
+#salk-img {
+  background-color: black;
+  float: left;
+  background: url('img/rsz_salk.jpg') no-repeat center center;
+  -webkit-background-blend-mode: multiply;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+}
+
+#mti-img {
+
+  background: url('img/rsz_mtibio.png') no-repeat center center;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+}
+
+.job-desciption {
+  clear: both;
+}
+
+/** Job dexcription list styling **/
+#job-description {
+  list-style: none;
+}
+
+#job-description > li {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#job-description > li:before {
+  content: "◉";
+  font-size: 10px;
+}
